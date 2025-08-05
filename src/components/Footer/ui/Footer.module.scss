@@ -1,0 +1,15 @@
+.footer {
+  background-color: blue;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  padding: 50px 80px;
+  display: flex;
+  gap: 80px;
+  width: 100%;
+  max-width: 1920px;
+}
