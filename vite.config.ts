@@ -11,7 +11,7 @@ const aliasList = [
   'pages',
   'routes',
   'styles',
-  'types',
+  'app-types',
   'utils'
 ];
 
