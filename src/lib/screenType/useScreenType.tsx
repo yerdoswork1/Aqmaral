@@ -1,5 +1,5 @@
 import type { TScreenType } from '@app-types/index';
-import { ScreenContext } from '@lib/screenTipe';
+import { ScreenContext } from '@lib/screenType';
 import { useContext } from 'react';
 
 export const useScreenType = (): TScreenType => {

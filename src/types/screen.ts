@@ -1,1 +1,1 @@
-export type TScreenType = 'mobile' | 'tablet' | 'laptop' | 'desktop';
+export type TScreenType = 'mobileS' | 'mobile' | 'laptop' | 'desktop';

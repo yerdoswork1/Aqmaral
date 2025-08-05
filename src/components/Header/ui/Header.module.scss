@@ -1,9 +1,13 @@
+@use "@assets/styles/_mixins" as *;
+@use "@assets/styles/_variables" as *;
+@use "@assets/styles/_functions" as *;
+
 .header {
-  background-color: red;
   width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.05);
 
   .container {
     width: 100%;
@@ -11,6 +15,69 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 27px 80px;
+    padding: 17px 10px 17px 80px;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .link {
+    @include p4-desktop();
+    color: color(black);
   }
 }
+
+@media (max-width: $laptop) {
+  .header {
+    .container {
+      padding-left: 60px;  
+    }
+
+    .logo {
+      width: 107px;
+      height: 28px;
+    }
+  
+    .link {
+      @include p3-tablet();
+    }
+  }
+}
+
+@media (max-width: $mobile) {
+  .header {
+    .container {
+      padding-left: 40px;  
+    }
+
+    .logo {
+      width: 68px;
+      height: 18px;
+    }
+
+    .content {
+      gap: 10px;
+    }
+  
+    .link {
+      @include p4-tablet();
+    }
+  }
+}
+
+@media (max-width: $mobileS) {
+  .header {
+    .container {
+      padding: 19px 0 19px 10px;
+    }
+
+    .logo {
+      width: 50px;
+      height: 13px;
+    }
+  }
+}
+

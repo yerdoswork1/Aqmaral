@@ -1,4 +1,4 @@
-import { ScreenContext } from '@lib/screenTipe';
+import { ScreenContext } from '@lib/screenType';
 import { getCurrentScreen } from '@utils/index';
 import { useEffect, useMemo, useState } from 'react';
 
