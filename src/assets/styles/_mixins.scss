@@ -1,0 +1,50 @@
+@use "@assets/styles/_functions" as *;
+
+@mixin h1-desktop {
+  font:
+    600 font-size-desktop(h1) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+
+@mixin p4-desktop {
+  font:
+    400 font-size-desktop(p4) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
+
+@mixin h1-tablet {
+  font:
+    600 font-size-tablet(h1) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+
+@mixin p3-tablet {
+  font:
+    400 font-size-tablet(p3) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
+
+@mixin p4-tablet {
+  font:
+    400 font-size-tablet(p4) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
+
+@mixin h1-mobile {
+  font:
+    600 font-size-mobile(h1) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+
+@mixin p3-mobile {
+  font:
+    400 font-size-mobile(p3) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
