@@ -1,7 +1,46 @@
 import react from '@vitejs/plugin-react';
+import path from 'path';
 import { defineConfig } from 'vite';
 
-// https://vite.dev/config/
+const aliasList = [
+  'assets',
+  'components',
+  'config',
+  'layouts',
+  'lib',
+  'pages',
+  'routes',
+  'styles',
+  'types',
+  'utils'
+];
+
+const alias = aliasList.reduce(
+  (acc, name) => {
+    const dir = name === 'styles' ? 'src/assets/styles' : `src/${name}`;
+    acc[`@${name}`] = path.resolve(__dirname, dir);
+    return acc;
+  },
+  {} as Record<string, string>
+);
+
 export default defineConfig({
-  plugins: [react()]
+  server: {
+    fs: {}
+  },
+  plugins: [react()],
+  resolve: {
+    alias
+  },
+  css: {
+    preprocessorOptions: {
+      scss: {}
+    },
+    devSourcemap: true
+  },
+  build: {
+    rollupOptions: {
+      treeshake: true
+    }
+  }
 });
