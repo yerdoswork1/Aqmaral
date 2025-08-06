@@ -1,0 +1,84 @@
+@use "@assets/styles/_mixins" as *;
+@use "@assets/styles/_variables" as *;
+@use "@assets/styles/_functions" as *;
+
+.card {
+  width: 100%;
+  aspect-ratio: 1/0.57;
+  border: 1px solid color(border-gray);
+  border-radius: 16px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.value {
+  @include h2-desktop();
+  color: color(brand);
+}
+
+.text {
+  @include p4-desktop();
+  color: color(black);
+}
+
+@media (max-width: $laptop) {
+  .card {
+    padding: 28px;
+  }
+  
+  .value {
+    @include h2-laptop();
+  }
+  
+  .text {
+    @include p3-laptop();
+  }
+}
+
+@media (max-width: 1200px) {
+  .card {
+    padding: 20px;
+  }
+  
+  .value {
+    @include h2-tablet();
+  }
+  
+  .text {
+    @include p4-laptop();
+  }
+}
+
+@media (max-width: $mobile) {
+  .card {
+    aspect-ratio: 1/0.67;
+  }
+  
+  .value {
+    @include h2-mobile();
+  }
+  
+  .text {
+    @include p5-laptop();
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    height: 80px;
+    border-radius: 10px;
+    padding: 12px;
+  }
+}
+
+@media (max-width: $mobileS) {
+  .value {
+    @include h1-mobileS();
+  }
+  
+  .text {
+    @include p3-mobile();
+  }
+}

@@ -9,26 +9,57 @@
   max-width: 1920px;
   margin: 0 auto;
   padding: 40px 80px;
+  gap: 80px;
 }
 
 .banner {
   width: 100%;
 }
 
+.infoCards {
+  display: flex;
+  width: 100%;
+  max-width: 1530px;
+  margin: 0 auto;
+  gap: 30px;
+}
+
 @media (max-width: $laptop) {
   .container {
     padding: 40px 60px;
+    gap: 60px;
   }
 }
 
 @media (max-width: $mobile) {
   .container {
     padding: 20px 40px;
+    gap: 50px;
+  }
+
+  .infoCards {
+    max-width: 590px;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .infoCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 }
 
 @media (max-width: $mobileS) {
   .container {
     padding: 10px 10px 20px 10px;
+    gap: 20px;
+  }
+
+  .infoCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
 }

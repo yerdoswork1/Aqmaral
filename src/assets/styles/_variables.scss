@@ -5,12 +5,14 @@ $colors: (
   black: #232222,
   brand: #DE3B38,
   light-gray: #F6F6F6,
-  text-gray: #646464
+  text-gray: #646464,
+  border-gray: #C8C8C8,
 );
 
 
 $font-sizes-desktop: (
   h1: 48px,
+  h2: 44px,
   p1: 32px,
   p2: 30px,
   p3: 26px,
@@ -20,6 +22,7 @@ $font-sizes-desktop: (
 
 $font-sizes-laptop: (
   h1: 42px,
+  h2: 36px,
   p1: 28px,
   p2: 26px,
   p3: 20px,
@@ -29,11 +32,13 @@ $font-sizes-laptop: (
 
 $font-sizes-tablet: (
   h1: 32px,
+  h2: 25px,
   p1: 20px,
 );
 
 $font-sizes-mobile: (
   h1: 24px,
+  h2: 18px,
   p1: 16px,
   p2: 14px,
   p3: 12px,
