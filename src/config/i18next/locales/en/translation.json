@@ -12,5 +12,10 @@
     "info": "Information",
     "contacts": "Contacts"
   },
-  "title": "Home"
+  "home": {
+    "banner": {
+      "title": "group of companies",
+      "description": "We develop projects in information technology, construction, new technologies, agriculture, and education."
+    }
+  }
 }
