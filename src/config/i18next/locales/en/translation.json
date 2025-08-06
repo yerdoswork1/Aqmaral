@@ -2,5 +2,15 @@
   "header": {
     "contacts": "Contacts"
   },
+  "footer": {
+    "rightsReserved": "All rights reserved.",
+    "publicOffer": "Public offer",
+    "privacyPolicy": "Privacy policy"
+  },
+  "mobileFooter": {
+    "main": "Home",
+    "info": "Information",
+    "contacts": "Contacts"
+  },
   "title": "Home"
 }

@@ -1,5 +1,8 @@
+@use "@assets/styles/_mixins" as *;
+@use "@assets/styles/_variables" as *;
+@use "@assets/styles/_functions" as *;
+
 .footer {
-  background-color: blue;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -7,9 +10,136 @@
 }
 
 .container {
-  padding: 50px 80px;
+  padding: 0 80px;
   display: flex;
-  gap: 80px;
+  flex-direction: column;
   width: 100%;
   max-width: 1920px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: color(brand);
+}
+
+.infoContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 0;
+  gap: 20px;
+}
+
+.info {
+  color: color(text-gray);
+  @include p3-laptop();
+  span {
+    padding-left: 8px;
+  }
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.link {
+  color: color(black);
+  @include p3-laptop();
+}
+
+@media (max-width: $laptop) {
+  .container {
+    padding: 0 60px;
+  }
+
+  .infoContainer {
+    padding: 26px 0;
+  }
+
+  .info {
+    @include p4-laptop();
+  }
+
+  .links {
+    gap: 16px;
+  }
+
+  .link {
+    @include p4-laptop();
+  }
+}
+
+@media (max-width: $mobile) {
+  .container {
+    padding: 0 40px;
+  }
+  .infoContainer {
+    padding: 15px 0;
+  }
+
+  .info {
+    @include p3-mobile();
+  }
+
+  .links {
+    gap: 8px;
+  }
+
+  .link {
+    @include p3-mobile();
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 40px;
+  }
+  .infoContainer {
+    padding: 15px 0;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    span {
+      display: block;
+      padding-left: 0;
+    }
+  }
+
+  .links {
+    gap: 8px;
+  }
+
+  .link {
+    @include p3-mobile();
+  }
+}
+
+@media (max-width: $mobileS) {
+  .mobileContainer {
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mobileLink {
+    color: color(dark-black);
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    padding: 15px 0 10px;
+    &:hover {
+      color: color(brand); 
+    }
+  }
+
+  .mobileLinkTitle{
+    @include p3-mobile-lato();
+  }
 }
