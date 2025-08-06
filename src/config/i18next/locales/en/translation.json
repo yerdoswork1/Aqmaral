@@ -16,6 +16,12 @@
     "banner": {
       "title": "group of companies",
       "description": "We develop projects in information technology, construction, new technologies, agriculture, and education."
+    },
+    "infoCards": {
+      "experience": "years of experience",
+      "countries": "countries",
+      "employees": "employees",
+      "projects": "projects"
     }
   }
 }
