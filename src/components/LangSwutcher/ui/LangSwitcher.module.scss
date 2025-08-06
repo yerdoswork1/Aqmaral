@@ -69,7 +69,7 @@
   }
 
   .label {
-    @include p3-tablet();
+    @include p3-laptop();
   }
   .flag {
     width: 24px;
@@ -93,7 +93,7 @@
   }
 
   .label {
-    @include p4-tablet();
+    @include p5-laptop();
   }
   .flag {
     width: 22px;

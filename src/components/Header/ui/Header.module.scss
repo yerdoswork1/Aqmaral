@@ -42,7 +42,7 @@
     }
   
     .link {
-      @include p3-tablet();
+      @include p3-laptop();
     }
   }
 }
@@ -63,7 +63,7 @@
     }
   
     .link {
-      @include p4-tablet();
+      @include p5-laptop();
     }
   }
 }

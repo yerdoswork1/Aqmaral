@@ -9,8 +9,8 @@
   @return map.get($font-sizes-desktop, $name);
 }
 
-@function font-size-tablet($name) {
-  @return map.get($font-sizes-tablet, $name);
+@function font-size-laptop($name) {
+  @return map.get($font-sizes-laptop, $name);
 }
 
 @function font-size-mobile($name) {
