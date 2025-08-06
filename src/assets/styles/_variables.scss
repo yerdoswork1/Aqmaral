@@ -1,9 +1,10 @@
 // colors
 $colors: (
-  white: #ffffff,
+  white: #FFFFFF,
   dark-black: #000000,
   black: #232222,
   brand: #DE3B38,
+  light-gray: #F6F6F6,
   text-gray: #646464
 );
 
@@ -26,11 +27,21 @@ $font-sizes-laptop: (
   p5: 13px,
 );
 
+$font-sizes-tablet: (
+  h1: 32px,
+  p1: 20px,
+);
+
 $font-sizes-mobile: (
   h1: 24px,
   p1: 16px,
   p2: 14px,
   p3: 12px,
+);
+
+$font-sizes-mobileS: (
+  h1: 18px,
+  p1: 11px,
 );
 
 // breakpoints
