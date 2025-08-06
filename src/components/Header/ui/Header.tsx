@@ -3,7 +3,7 @@ import { useScreenType } from '@lib/screenType';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 
-import Logo from './../../../assets/Vector.png';
+import Logo from './../../../assets/logo.png';
 
 import styles from './Header.module.scss';
 

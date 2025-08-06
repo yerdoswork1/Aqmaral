@@ -1,8 +1,10 @@
 // colors
 $colors: (
   white: #ffffff,
+  dark-black: #000000,
   black: #232222,
-  brand: #DE3B38
+  brand: #DE3B38,
+  text-gray: #646464
 );
 
 
@@ -15,12 +17,13 @@ $font-sizes-desktop: (
   p5: 22px,
 );
 
-$font-sizes-tablet: (
+$font-sizes-laptop: (
   h1: 42px,
   p1: 28px,
   p2: 26px,
   p3: 20px,
-  p4: 13px,
+  p4: 16px,
+  p5: 13px,
 );
 
 $font-sizes-mobile: (

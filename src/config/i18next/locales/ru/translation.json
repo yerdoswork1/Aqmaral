@@ -2,5 +2,15 @@
   "header": {
     "contacts": "Контакты"
   },
-  "title": "Главная"
+  "footer": {
+    "rightsReserved": " Все права защищены.",
+    "publicOffer": "Публичная оферта",
+    "privacyPolicy": "Политика конфиденциальности"
+  },
+  "mobileFooter": {
+    "main": "Главная",
+    "info": "Информация",
+    "contacts": "Контакты"
+  },
+    "title": "Главная"
 }
