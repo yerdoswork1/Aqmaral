@@ -22,6 +22,22 @@
       "countries": "страны мира",
       "employees": "сотрудников",
       "projects": "проектов"
+    },
+    "products": {
+      "title": "Продукты",
+      "SanaUp": {
+        "description": "Платформа для бизнес решений"
+      },
+      "Offiwebsite": {
+        "description": "Одна платформа - все бренды"
+      },
+      "Aveelon": {
+        "description": "Платформа объединяющая все ключевые сервисы "
+      },
+      "Ozimki": {
+        "description": "Витрина цифровых решений"
+      },
+      "button": "Подробнее"
     }
   }
 }

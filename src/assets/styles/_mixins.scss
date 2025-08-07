@@ -12,6 +12,24 @@
     sans-serif;
   line-height: 100%;
 }
+@mixin h3-desktop {
+  font:
+    600 font-size-desktop(h3) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h4-500-desktop {
+  font:
+    500 font-size-desktop(h4-500) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h5-500-desktop {
+  font:
+    500 font-size-desktop(h5-500) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
 
 // desktop p
 @mixin p1-desktop {
@@ -26,6 +44,12 @@
     sans-serif;
   line-height: 100%;
 }
+@mixin p5-desktop {
+  font:
+    400 font-size-desktop(p5) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
 
 // laptop h
 @mixin h1-laptop {
@@ -37,6 +61,18 @@
 @mixin h2-laptop {
   font:
     600 font-size-laptop(h2) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h4-500-laptop {
+  font:
+    500 font-size-laptop(h4-500) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h5-500-laptop {
+  font:
+    500 font-size-laptop(h5-500) "Montserrat",
     sans-serif;
   line-height: 100%;
 }
@@ -88,11 +124,23 @@
     sans-serif;
   line-height: 100%;
 }
+@mixin p2-tablet {
+  font:
+    400 font-size-tablet(p2) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
 
 // mobile h
 @mixin h1-mobile {
   font:
     600 font-size-mobile(h1) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h2-20-mobile {
+  font:
+    600 font-size-mobile(h2-20) "Montserrat",
     sans-serif;
   line-height: 100%;
 }
@@ -102,11 +150,29 @@
     sans-serif;
   line-height: 100%;
 }
+@mixin h2-500-mobile {
+  font:
+    500 font-size-mobile(h2-500) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h4-mobile {
+  font:
+    600 font-size-mobile(h4) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
 
 // mobile p
 @mixin p1-mobile {
   font:
     400 font-size-mobile(p1) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin p2-mobile {
+  font:
+    400 font-size-mobile(p2) "Inter",
     sans-serif;
   line-height: 100%;
 }
@@ -127,6 +193,24 @@
 @mixin h1-mobileS {
   font:
     600 font-size-mobileS(h1) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h2-mobileS {
+  font:
+    600 font-size-mobileS(h2) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h3-500-mobileS {
+  font:
+    500 font-size-mobileS(h3-500) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h4-mobileS {
+  font:
+    600 font-size-mobileS(h4) "Montserrat",
     sans-serif;
   line-height: 100%;
 }
