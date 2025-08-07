@@ -1,4 +1,4 @@
-import { Banner, InfoCard, ProductsCard } from '@components/index';
+import { Banner, InfoCard, ProductsCard, YearTimeline, KeyStages } from '@components/index';
 import { useTranslation } from 'react-i18next';
 
 import aveelon from './../../assets/images/productsApp/aveelon.png';
@@ -39,6 +39,10 @@ export const Home = () => {
             <ProductsCard key={index} title={product.title} text={product.text} src={product.src} />
           ))}
         </div>
+      </section>
+      <section>
+        <KeyStages />
+        <YearTimeline />
       </section>
     </main>
   );

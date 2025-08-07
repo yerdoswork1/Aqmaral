@@ -32,6 +32,7 @@
 
 .productsTitle {
   @include h3-desktop();
+  color: color(black);
 }
 
 .productsCards {
