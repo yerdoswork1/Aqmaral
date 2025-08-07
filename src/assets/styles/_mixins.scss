@@ -38,6 +38,18 @@
     sans-serif;
   line-height: 100%;
 }
+@mixin p2-desktop {
+  font:
+    400 font-size-desktop(p2) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin p3-desktop {
+  font:
+    400 font-size-desktop(p3) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
 @mixin p4-desktop {
   font:
     400 font-size-desktop(p4) "Inter",
@@ -55,6 +67,12 @@
 @mixin h1-laptop {
   font:
     600 font-size-laptop(h1) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h2-38-laptop {
+  font:
+    600 font-size-laptop(h2-38) "Montserrat",
     sans-serif;
   line-height: 100%;
 }
@@ -81,6 +99,12 @@
 @mixin p1-laptop {
   font:
     400 font-size-laptop(p1) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin p2-laptop {
+  font:
+    400 font-size-laptop(p2) "Inter",
     sans-serif;
   line-height: 100%;
 }

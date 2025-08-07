@@ -38,6 +38,27 @@
         "description": "Showcase of digital solutions"
       },
       "button": "Learn more"
+    },
+    "productsYears": {
+      "SanaUP": "Web development and digital marketing",
+      "Ozimki": "Digital solutions",
+      "SkillShif": "Educational courses",
+      "VeloNova": "Clothing and footwear design",
+      "LumoCasa": "Interior and exterior design",
+      "DreamWay": "Travel agency",
+      "Luna": "Restaurant group",
+      "FlexFit": "Fitness and yoga",
+      "RevSpot": "Car dealership",
+      "FleetPoint": "Logistics services",
+      "FloraVera": "Flowers and gifts",
+      "Aveelon": "A platform that unites all key services",
+      "FeeLink": "Event organization",
+      "Offiwebsite": "Platform uniting brands",
+      "ReelTime": "News and media"
+    },
+    "stages": {
+      "title": "Key Stages",
+      "text": "We create products that benefit people. We value courage, the ability to make decisions and always find opportunities, and we constantly strive to improve everything we do."
     }
   }
 }
