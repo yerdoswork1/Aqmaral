@@ -1,0 +1,187 @@
+@use "@assets/styles/_mixins" as *;
+@use "@assets/styles/_variables" as *;
+@use "@assets/styles/_functions" as *;
+
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  padding: 20px 15px 0 15px;
+  border: 1px solid color(border-gray-2);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.06);
+  background: linear-gradient(180deg, #F5F5F5 0%, #FFFFFF 100%);
+  overflow: hidden;
+}
+
+.container {
+  overflow: hidden;
+  width: 100%;
+  aspect-ratio: 1/1.35;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+  height: 150px;
+}
+
+.title {
+  @include h4-500-desktop();
+  color: color(brand);
+}
+
+.text {
+  @include p5-desktop();
+  color: color(black);
+}
+
+.imgContainer {
+  width: 76%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.imgWrap {
+  position: absolute;
+  max-width: 100%;
+  object-fit: cover;
+  z-index: 10;
+}
+
+.imgContainer2 {
+  width: 85%;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.btnContainer {
+  display: flex;
+  width: 100%;
+  height: 103px;
+  padding: 20px 5px;
+}
+
+.btn {
+  @include h5-500-desktop();
+  color: color(white);
+  background-color: color(brand);
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  border: 0;
+  outline: 0;
+}
+
+@media (max-width: $laptop) {
+  .card {
+    border-radius: 20px;
+  }
+  .container {
+    aspect-ratio: 1/1.7;
+  }
+
+  .info {
+    padding-top: 5px;
+    height: 120px;
+    gap: 10px;
+  }
+
+  .title {
+    @include h4-500-laptop();
+  }
+  
+  .text {
+    @include p2-tablet();
+  }
+
+  .imgContainer {
+    width: 87%;
+  }
+
+  .btnContainer {
+    height: 98px;
+  }
+
+  .btn {
+    @include h5-500-laptop();
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    aspect-ratio: 1/1.5;
+  }
+}
+
+@media (max-width: $mobile) {
+  .card {
+    border-radius: 15px;
+  }
+
+  .container {
+    aspect-ratio: 1/1.7;
+  }
+
+  .info {
+    height: 120px;
+    gap: 10px;
+  }
+
+  .title {
+    @include h2-500-mobile();
+  }
+
+  .text {
+    @include p4-laptop();
+  }
+
+  .btnContainer {
+    height: 84px;
+  }
+
+  .btn {
+    @include h4-mobile();
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: $mobileS) {
+  .card {
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .info {
+    height: 90px;
+    gap: 10px;
+  }
+
+  .title {
+    @include h3-500-mobileS();
+  }
+
+  .text {
+    @include p2-mobile();
+  }
+
+  .btnContainer {
+    padding: 15px 0 0 0;
+    height: 59px;
+  }
+
+  .btn {
+    @include h4-mobileS();
+  }
+}

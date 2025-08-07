@@ -22,6 +22,22 @@
       "countries": "countries",
       "employees": "employees",
       "projects": "projects"
+    },
+    "products": {
+      "title": "Products",
+      "SanaUp": {
+        "description": "Platform for business solutions"
+      },
+      "Offiwebsite": {
+        "description": "One platform – all brands"
+      },
+      "Aveelon": {
+        "description": "A platform that unites all key services"
+      },
+      "Ozimki": {
+        "description": "Showcase of digital solutions"
+      },
+      "button": "Learn more"
     }
   }
 }

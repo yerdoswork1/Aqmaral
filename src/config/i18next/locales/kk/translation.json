@@ -22,6 +22,22 @@
       "countries": "ел",
       "employees": "қызметкер",
       "projects": "жоба"
+    },
+    "products": {
+      "title": "Өнімдер",
+      "SanaUp": {
+        "description": "Бизнес шешімдерге арналған платформа"
+      },
+      "Offiwebsite": {
+        "description": "Бір платформа – барлық брендтер"
+      },
+      "Aveelon": {
+        "description": "Барлық негізгі сервистерді біріктіретін платформа"
+      },
+      "Ozimki": {
+        "description": "Цифрлық шешімдердің витринасы"
+      },
+      "button": "Толығырақ"
     }
   }
 }
