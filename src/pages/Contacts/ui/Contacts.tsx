@@ -1,4 +1,4 @@
-import { BreadCrumbs, ContactsBanner } from '@components/index';
+import { BreadCrumbs, ContactsBanner, FilialsMap } from '@components/index';
 import { useScreenType } from '@lib/screenType';
 import { useTranslation } from 'react-i18next';
 
@@ -15,7 +15,7 @@ const Contacts = () => {
     <main className={styles.container}>
       {screenType !== 'mobileS' && <BreadCrumbs links={links} />}
       <ContactsBanner email={EMAIL} />
-      {/* <FilialsMap/> */}
+      <FilialsMap />
     </main>
   );
 };
