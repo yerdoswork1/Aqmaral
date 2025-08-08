@@ -59,6 +59,12 @@
     "stages": {
       "title": "Key Stages",
       "text": "We create products that benefit people. We value courage, the ability to make decisions and always find opportunities, and we constantly strive to improve everything we do."
-    }
+    },
+    "link": "Home"
+  },
+  "contacts": {
+    "link": "Contacts",
+    "emailBlock": "Write to us and we will answer all your questions",
+    "filialsTitle": "Our branches"
   }
 }

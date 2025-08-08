@@ -1,4 +1,5 @@
 import { LangSwitcher } from '@components/LangSwutcher';
+import { RouteNames } from '@config/RoutNames';
 import { useScreenType } from '@lib/screenType';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
@@ -13,10 +14,12 @@ export const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
-        <img src={Logo} className={styles.logo} />
+        <Link to={RouteNames.MAIN}>
+          <img src={Logo} className={styles.logo} />
+        </Link>
         <div className={styles.content}>
           {screenType !== 'mobileS' && (
-            <Link to="" className={styles.link}>
+            <Link to={RouteNames.CONTACTS} className={styles.link}>
               {t('header.contacts')}
             </Link>
           )}

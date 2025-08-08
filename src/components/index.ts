@@ -6,3 +6,4 @@ export * from './InfoCard';
 export * from './ProductsCard';
 export * from './YearTimeline';
 export * from './KeyStages';
+export * from './BreadCrumbs';

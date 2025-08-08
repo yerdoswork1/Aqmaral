@@ -8,7 +8,7 @@ import sunaUp from './../../assets/images/productsApp/sana-up.png';
 
 import styles from './Home.module.scss';
 
-export const Home = () => {
+const Home = () => {
   const { t } = useTranslation();
   const INFO = [
     { value: '13+', text: t('home.infoCards.experience') },
@@ -47,3 +47,5 @@ export const Home = () => {
     </main>
   );
 };
+
+export default Home;
