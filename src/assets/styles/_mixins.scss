@@ -232,6 +232,12 @@
     sans-serif;
   line-height: 100%;
 }
+@mixin h3-mobileS {
+  font:
+    600 font-size-mobileS(h3) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
 @mixin h4-mobileS {
   font:
     600 font-size-mobileS(h4) "Montserrat",
