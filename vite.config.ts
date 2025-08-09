@@ -17,7 +17,7 @@ const aliasList = [
 
 const alias = aliasList.reduce(
   (acc, name) => {
-    const dir = name === 'styles' ? 'src/assets/styles' : `src/${name}`;
+    const dir = name === 'app-types' ? 'src/types' : `src/${name}`;
     acc[`@${name}`] = path.resolve(__dirname, dir);
     return acc;
   },

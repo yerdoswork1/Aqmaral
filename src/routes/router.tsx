@@ -1,7 +1,7 @@
 import { Spinner } from '@components/Spinner';
 import { RouteNames } from '@config/RoutNames';
 import { AppLayout } from '@layouts/index';
-import { HomePage, ContactsPage } from '@pages/index';
+import { HomePage, ContactsPage, ProductPage } from '@pages/index';
 import { Suspense } from 'react';
 import { createBrowserRouter, createRoutesFromElements, Route } from 'react-router';
 import { Navigate } from 'react-router-dom';
@@ -23,6 +23,7 @@ export const router = createBrowserRouter(
       >
         <Route index path={RouteNames.MAIN} element={<HomePage />} />
         <Route path={RouteNames.CONTACTS} element={<ContactsPage />} />
+        <Route path={RouteNames.PRODUCT} element={<ProductPage />} />
       </Route>
     </>
   )
