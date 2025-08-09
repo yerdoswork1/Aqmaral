@@ -1,5 +1,7 @@
+import { RouteNames } from '@config/RoutNames';
 import { FC } from 'react';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 import phone from './../../../assets/images/productsApp/border.png';
 
@@ -12,7 +14,7 @@ interface ProductsCardProps {
 }
 
 export const ProductsCard: FC<ProductsCardProps> = ({ title, text, src }) => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   return (
     <div className={styles.card}>
       <div className={styles.container}>
@@ -28,7 +30,9 @@ export const ProductsCard: FC<ProductsCardProps> = ({ title, text, src }) => {
         </div>
       </div>
       <div className={styles.btnContainer}>
-        <button className={styles.btn}>{t('home.products.button')}</button>
+        <Link to={`/${i18n.language}/${RouteNames.PRODUCT}?name=${title}`} className={styles.btn}>
+          {t('home.products.button')}
+        </Link>
       </div>
     </div>
   );
