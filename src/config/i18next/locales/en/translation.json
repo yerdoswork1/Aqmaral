@@ -84,5 +84,10 @@
   },
   "info": {
     "title": "Information"
+  },
+  "404": {
+    "title": "Page Not Found",
+    "description": "Unfortunately, the page was not found, but you can go to the homepage",
+    "btn": "Go to Home"
   }
 }
