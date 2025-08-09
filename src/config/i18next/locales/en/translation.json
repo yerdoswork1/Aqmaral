@@ -81,5 +81,8 @@
     "Ozimki": {
       "description": "Ozimki is a universal demo solution from SanaUp that unites all the company’s key products. In one space, you can test the market (Ozimki Market), take training (Ozimki Course), check your knowledge (Ozimki Test), and browse products (Ozimki Store). This is not just a demo but a visual showcase of our digital world — convenient, simple, and clear."
     }
+  },
+  "info": {
+    "title": "Information"
   }
 }

@@ -252,3 +252,9 @@
     sans-serif;
   line-height: 100%;
 }
+@mixin p2-mobileS {
+  font:
+    400 font-size-mobileS(p2) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
