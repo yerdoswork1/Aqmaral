@@ -1,7 +1,6 @@
 import { BreadCrumbs, ContactsBanner, FilialsMap } from '@components/index';
 import { useScreenType } from '@lib/screenType';
 import { useTranslation } from 'react-i18next';
-
 import styles from './Contacts.module.scss';
 import { getLinks } from '../model/linksData';
 
