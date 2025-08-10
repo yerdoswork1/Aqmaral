@@ -1,0 +1,61 @@
+@use "@styles/_mixins" as *;
+@use "@styles/_variables" as *;
+@use "@styles/_functions" as *;
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  .title {
+    @include h3-desktop();
+  }
+  .p {
+    @include p1-desktop();
+
+    a {
+      color: color(black);
+      text-decoration: underline;
+      text-decoration-skip-ink: none;
+      text-underline-offset: 5px;
+      &:hover {
+        color: color(brand);
+      }
+    }
+  }
+}
+
+.gap_20 {
+  gap: 20px;
+  .title {
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: $laptop) {
+  .wrapper .title {
+    @include h2-desktop();
+  }
+  .wrapper .p {
+    @include p2-desktop();
+  }
+
+  .gap_20 {
+    gap: 10px;
+    .title {
+      margin-bottom: 20px;
+    }
+    .p {
+      @include p1-mobile();
+    }
+  }
+}
+
+@media (max-width: $mobile) {
+  .wrapper .title {
+    @include h2-mobile();
+  }
+  .wrapper .p {
+    @include p3-mobile();
+  }
+}

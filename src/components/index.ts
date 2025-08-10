@@ -10,3 +10,5 @@ export * from './BreadCrumbs';
 export * from './ContactsBanner';
 export * from './Filials';
 export * from './ProductsContent';
+export * from './Points';
+export * from './Paragraphs';

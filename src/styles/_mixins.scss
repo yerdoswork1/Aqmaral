@@ -70,6 +70,12 @@
     sans-serif;
   line-height: 100%;
 }
+@mixin h1-40-laptop {
+  font:
+    600 font-size-laptop(h1-40) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
 @mixin h2-38-laptop {
   font:
     600 font-size-laptop(h2-38) "Montserrat",
@@ -194,6 +200,12 @@
     sans-serif;
   line-height: 100%;
 }
+@mixin p1-15-mobile {
+  font:
+    400 font-size-mobile(p1-15) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
 @mixin p2-mobile {
   font:
     400 font-size-mobile(p2) "Inter",
@@ -203,6 +215,12 @@
 @mixin p3-mobile {
   font:
     400 font-size-mobile(p3) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin p3-500-mobile {
+  font:
+    400 font-size-mobile(p3-500) "Inter",
     sans-serif;
   line-height: 100%;
 }
@@ -235,6 +253,12 @@
 @mixin h3-mobileS {
   font:
     600 font-size-mobileS(h3) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h3-13-mobileS {
+  font:
+    600 font-size-mobileS(h3-13) "Montserrat",
     sans-serif;
   line-height: 100%;
 }
