@@ -7,6 +7,7 @@ import {
   ProductPage,
   InfoPage,
   PrivacyPolicyPage,
+  PublicOfferPage,
   NotFoundPage
 } from '@pages/index';
 import { Suspense } from 'react';
@@ -37,6 +38,7 @@ export const router = createBrowserRouter(
           <Route path={RouteNames.PRODUCT} element={<ProductPage />} />
           <Route path={RouteNames.INFO} element={<InfoPage />} />
           <Route path={RouteNames.PRIVACY_POLICY} element={<PrivacyPolicyPage />} />
+          <Route path={RouteNames.PUBLIC_OFFER} element={<PublicOfferPage />} />
         </Route>
       ))}
       <Route path="*" element={<NotFoundPage />} />
