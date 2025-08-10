@@ -1,0 +1,284 @@
+@use "@styles/_functions" as *;
+// desktop h
+@mixin h1-desktop {
+  font:
+    600 font-size-desktop(h1) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h2-desktop {
+  font:
+    600 font-size-desktop(h2) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h3-desktop {
+  font:
+    600 font-size-desktop(h3) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h4-500-desktop {
+  font:
+    500 font-size-desktop(h4-500) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h5-500-desktop {
+  font:
+    500 font-size-desktop(h5-500) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+
+// desktop p
+@mixin p1-desktop {
+  font:
+    400 font-size-desktop(p1) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin p2-desktop {
+  font:
+    400 font-size-desktop(p2) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin p3-desktop {
+  font:
+    400 font-size-desktop(p3) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin p4-desktop {
+  font:
+    400 font-size-desktop(p4) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin p5-desktop {
+  font:
+    400 font-size-desktop(p5) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
+
+// laptop h
+@mixin h1-laptop {
+  font:
+    600 font-size-laptop(h1) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h1-40-laptop {
+  font:
+    600 font-size-laptop(h1-40) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h2-38-laptop {
+  font:
+    600 font-size-laptop(h2-38) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h2-laptop {
+  font:
+    600 font-size-laptop(h2) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h4-500-laptop {
+  font:
+    500 font-size-laptop(h4-500) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h5-500-laptop {
+  font:
+    500 font-size-laptop(h5-500) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+
+// laptop p
+@mixin p1-laptop {
+  font:
+    400 font-size-laptop(p1) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin p2-laptop {
+  font:
+    400 font-size-laptop(p2) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin p3-laptop {
+  font:
+    400 font-size-laptop(p3) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin p4-laptop {
+  font:
+    400 font-size-laptop(p4) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin p5-laptop {
+  font:
+    400 font-size-laptop(p5) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
+
+// tablet h
+@mixin h1-tablet {
+  font:
+    600 font-size-tablet(h1) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h2-tablet {
+  font:
+    600 font-size-tablet(h2) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+
+// tablet p
+@mixin p1-tablet {
+  font:
+    400 font-size-tablet(p1) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin p2-tablet {
+  font:
+    400 font-size-tablet(p2) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
+
+// mobile h
+@mixin h1-mobile {
+  font:
+    600 font-size-mobile(h1) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h2-20-mobile {
+  font:
+    600 font-size-mobile(h2-20) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h2-mobile {
+  font:
+    600 font-size-mobile(h2) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h2-500-mobile {
+  font:
+    500 font-size-mobile(h2-500) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h4-mobile {
+  font:
+    600 font-size-mobile(h4) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+
+// mobile p
+@mixin p1-mobile {
+  font:
+    400 font-size-mobile(p1) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin p1-15-mobile {
+  font:
+    400 font-size-mobile(p1-15) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin p2-mobile {
+  font:
+    400 font-size-mobile(p2) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin p3-mobile {
+  font:
+    400 font-size-mobile(p3) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin p3-500-mobile {
+  font:
+    400 font-size-mobile(p3-500) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin p3-mobile-lato {
+  font:
+    400 font-size-mobile(p3) "Lato",
+    sans-serif;
+  line-height: 100%;
+}
+
+// mobileS h
+@mixin h1-mobileS {
+  font:
+    600 font-size-mobileS(h1) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h2-mobileS {
+  font:
+    600 font-size-mobileS(h2) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h3-500-mobileS {
+  font:
+    500 font-size-mobileS(h3-500) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h3-mobileS {
+  font:
+    600 font-size-mobileS(h3) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h3-13-mobileS {
+  font:
+    600 font-size-mobileS(h3-13) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h4-mobileS {
+  font:
+    600 font-size-mobileS(h4) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+
+// mobileS p
+@mixin p1-mobileS {
+  font:
+    400 font-size-mobileS(p1) "Inter",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin p2-mobileS {
+  font:
+    400 font-size-mobileS(p2) "Inter",
+    sans-serif;
+  line-height: 100%;
+}

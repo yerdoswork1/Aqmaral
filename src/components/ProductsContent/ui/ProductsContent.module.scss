@@ -1,0 +1,169 @@
+@use "@styles/_mixins" as *;
+@use "@styles/_variables" as *;
+@use "@styles/_functions" as *;
+
+.container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.imgWrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: color(border-gray-2);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+.imgContainer {
+  width: 100%;
+  aspect-ratio: 1/0.7;
+}
+
+.img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.title {
+  @include h2-38-laptop();
+  color: color(brand);
+}
+
+.text {
+  @include p2-desktop();
+  color: color(black);
+}
+
+.btn {
+  display: inline-block;
+  padding: 17px 75px;
+  @include h5-500-desktop;
+  color: color(white);
+  background-color: color(brand);
+  border-radius: 16px;
+}
+
+@media (max-width: $laptop) {
+  .container {
+    gap: 30px;
+  }
+  .title {
+    @include h1-tablet();
+  }
+  
+  .text {
+    @include p4-desktop();
+  }  
+}
+
+@media (max-width: $mobile) {
+  .container {
+    gap: 20px;
+  }
+
+  .infoContainer,
+  .info {
+    gap: 20px;
+  }
+
+  .title {
+    @include h2-mobile();
+  }
+  
+  .text {
+    @include p2-mobile();
+    font-size: 15px;
+  }
+
+  .btn {
+    @include h3-mobileS();
+    font-weight: 500;
+    padding: 11px 43px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    border-radius: 12px;
+  } 
+}
+
+@media (max-width: $mobileS) {
+  .container {
+    gap: 10px;
+  }
+
+  .imgWrap {
+    border-radius: 15px;
+  }
+
+  .info {
+    gap: 50px;
+  }
+
+  .title {
+    @include h2-mobileS();
+  }
+  
+  .text {
+    @include p2-mobile();
+  }
+  .btn {
+    @include h2-mobileS();
+    font-weight: 500;
+  }
+  
+  .backBtn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 31px;
+    height: 31px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 1px 0px #A1A3A37D,
+      0px 2px 2px 0px #A1A3A36E,   
+      0px 4px 3px 0px #A1A3A340,    
+      0px 8px 3px 0px #A1A3A312,    
+      0px 12px 3px 0px #A1A3A303;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: color(white);
+  }
+
+  .iconBackBtn {
+    color: color(black);
+  }
+}

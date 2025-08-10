@@ -1,0 +1,43 @@
+@use "@styles/_mixins" as *;
+@use "@styles/_variables" as *;
+@use "@styles/_functions" as *;
+
+.breadcrumbs {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+} 
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  @include p3-laptop();
+  font-size: 23px;
+}
+
+.item {
+  .link {
+    text-decoration: none;
+    color: color(link-gray);
+  }
+}
+
+.item.active {
+  .link {
+    color: color(black);
+  }
+}
+
+@media (max-width: $mobile) {
+  .list {
+    @include p1-mobile();
+  }
+}

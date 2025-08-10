@@ -1,0 +1,93 @@
+{
+  "header": {
+    "contacts": "Contacts"
+  },
+  "footer": {
+    "rightsReserved": "All rights reserved.",
+    "publicOffer": "Public offer",
+    "privacyPolicy": "Privacy policy"
+  },
+  "mobileFooter": {
+    "main": "Home",
+    "info": "Information",
+    "contacts": "Contacts"
+  },
+  "home": {
+    "banner": {
+      "title": "group of companies",
+      "description": "We develop projects in information technology, construction, new technologies, agriculture, and education."
+    },
+    "infoCards": {
+      "experience": "years of experience",
+      "countries": "countries",
+      "employees": "employees",
+      "projects": "projects"
+    },
+    "products": {
+      "title": "Products",
+      "SanaUp": {
+        "description": "Platform for business solutions"
+      },
+      "Offiwebsite": {
+        "description": "One platform – all brands"
+      },
+      "Aveelon": {
+        "description": "A platform that unites all key services"
+      },
+      "Ozimki": {
+        "description": "Showcase of digital solutions"
+      },
+      "button": "Learn more"
+    },
+    "productsYears": {
+      "SanaUP": "Web development and digital marketing",
+      "Ozimki": "Digital solutions",
+      "SkillShif": "Educational courses",
+      "VeloNova": "Clothing and footwear design",
+      "LumoCasa": "Interior and exterior design",
+      "DreamWay": "Travel agency",
+      "Luna": "Restaurant group",
+      "FlexFit": "Fitness and yoga",
+      "RevSpot": "Car dealership",
+      "FleetPoint": "Logistics services",
+      "FloraVera": "Flowers and gifts",
+      "Aveelon": "A platform that unites all key services",
+      "FeeLink": "Event organization",
+      "Offiwebsite": "Platform uniting brands",
+      "ReelTime": "News and media"
+    },
+    "stages": {
+      "title": "Key Stages",
+      "text": "We create products that benefit people. We value courage, the ability to make decisions and always find opportunities, and we constantly strive to improve everything we do."
+    },
+    "link": "Home"
+  },
+  "contacts": {
+    "link": "Contacts",
+    "emailBlock": "Write to us and we will answer all your questions",
+    "filialsTitle": "Our branches"
+  },
+  "product": {
+    "link": "Go to website",
+    "SanaUp": {
+      "description": "International Business & Technology Solutions Company — an international company providing comprehensive solutions in information technology, marketing, and business consulting. Our mission is to help companies grow and develop by implementing effective digital tools and strategies."
+    },
+    "Offiwebsite": {
+      "description": "Offiwebsite is a platform that gathers all SanaUp brands in one space. Here you can explore the full range of the company’s areas — from educational products and business solutions to services for personal needs. Offiwebsite makes it easy to navigate between brands, learn about their services, and switch to the necessary solutions in just a couple of clicks. It is a convenient entry point into the SanaUp ecosystem for users and partners."
+    },
+    "Aveelon": {
+      "description": "Aveelon is a universal platform that brings together all key services in one space. It offers solutions for different needs — from ordering food to buying a car. Aveelon demonstrates how SanaUp products work together, creating a single digital ecosystem. It is a convenient and visual platform to explore all services and start using them right away."
+    },
+    "Ozimki": {
+      "description": "Ozimki is a universal demo solution from SanaUp that unites all the company’s key products. In one space, you can test the market (Ozimki Market), take training (Ozimki Course), check your knowledge (Ozimki Test), and browse products (Ozimki Store). This is not just a demo but a visual showcase of our digital world — convenient, simple, and clear."
+    }
+  },
+  "info": {
+    "title": "Information"
+  },
+  "404": {
+    "title": "Page Not Found",
+    "description": "Unfortunately, the page was not found, but you can go to the homepage",
+    "btn": "Go to Home"
+  }
+}

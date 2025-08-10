@@ -1,0 +1,34 @@
+@use "@styles/_mixins" as *;
+@use "@styles/_variables" as *;
+@use "@styles/_functions" as *;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 40px 80px;
+  gap: 80px;
+}
+
+@media (max-width: $laptop) {
+  .container {
+    padding: 40px 60px;
+    gap: 60px;
+  }
+}
+
+@media (max-width: $mobile) {
+  .container {
+    padding: 20px 40px;
+    gap: 50px;
+  }
+}
+
+@media (max-width: $mobileS) {
+  .container {
+    padding: 10px 10px 20px 10px;
+    gap: 20px;
+  }
+}
