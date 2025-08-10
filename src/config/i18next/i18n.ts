@@ -3,10 +3,13 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import { initReactI18next } from 'react-i18next';
 
 import enPrivacyPolicy from './locales/en/privacyPolicy.json';
+import enPublicOffer from './locales/en/publicOffer.json';
 import en from './locales/en/translation.json';
 import kkPrivacyPolicy from './locales/kk/privacyPolicy.json';
+import kkPublicOffer from './locales/kk/publicOffer.json';
 import kk from './locales/kk/translation.json';
 import ruPrivacyPolicy from './locales/ru/privacyPolicy.json';
+import ruPublicOffer from './locales/ru/publicOffer.json';
 import ru from './locales/ru/translation.json';
 
 i18n
@@ -20,9 +23,9 @@ i18n
       caches: ['localStorage']
     },
     resources: {
-      en: { translation: { ...en, ...enPrivacyPolicy } },
-      ru: { translation: { ...ru, ...ruPrivacyPolicy } },
-      kk: { translation: { ...kk, ...kkPrivacyPolicy } }
+      en: { translation: { ...en, ...enPrivacyPolicy, ...enPublicOffer } },
+      ru: { translation: { ...ru, ...ruPrivacyPolicy, ...ruPublicOffer } },
+      kk: { translation: { ...kk, ...kkPrivacyPolicy, ...kkPublicOffer } }
     },
     interpolation: {
       escapeValue: false
