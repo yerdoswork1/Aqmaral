@@ -16,17 +16,13 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: 'en',
-    supportedLngs: ['en', 'ru', 'kk'],
-    detection: {
-      order: ['localStorage', 'navigator'],
-      caches: ['localStorage']
-    },
     resources: {
       en: { translation: { ...en, ...enPrivacyPolicy, ...enPublicOffer } },
       ru: { translation: { ...ru, ...ruPrivacyPolicy, ...ruPublicOffer } },
       kk: { translation: { ...kk, ...kkPrivacyPolicy, ...kkPublicOffer } }
     },
+    lng: localStorage.getItem('i18nextLng') || 'en',
+    fallbackLng: 'en',
     interpolation: {
       escapeValue: false
     }
