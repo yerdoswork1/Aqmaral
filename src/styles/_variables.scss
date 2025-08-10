@@ -27,6 +27,7 @@ $font-sizes-desktop: (
 
 $font-sizes-laptop: (
   h1: 42px,
+  h1-40: 40px,
   h2-38: 38px,
   h2: 36px,
   h4-500: 22px,
@@ -52,8 +53,10 @@ $font-sizes-mobile: (
   h2-500: 18px,
   h4: 12px,
   p1: 16px,
+  p1-15: 15px,
   p2: 14px,
   p3: 12px,
+  p3-500: 12px,
 );
 
 $font-sizes-mobileS: (
@@ -61,6 +64,7 @@ $font-sizes-mobileS: (
   h2: 16px,
   h3-500: 15px,
   h3: 14px,
+  h3-13: 13px,
   h4: 12px,
   p1: 11px,
   p2: 10px,

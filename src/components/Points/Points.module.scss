@@ -1,0 +1,52 @@
+@use "@styles/_mixins" as *;
+@use "@styles/_variables" as *;
+@use "@styles/_functions" as *;
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.title {
+  @include h2-desktop();
+}
+
+.li {
+  @include p1-laptop();
+  line-height: 120%;
+}
+
+@media (max-width: $laptop) {
+  .title {
+    @include h2-laptop();
+  }
+  .li {
+    @include p4-desktop();
+  }
+}
+
+@media (max-width: $mobile) {
+  .wrapper {
+    gap: 30px;
+  }
+
+  .title {
+    @include h2-mobile();
+  }
+  .li {
+    @include p1-15-mobile();
+  }
+}
+
+@media (max-width: $mobileS) {
+  .wrapper {
+    gap: 15px;
+  }
+
+  .title {
+    @include h3-13-mobileS();
+  }
+  .li {
+    @include p3-500-mobile();
+  }
+}
