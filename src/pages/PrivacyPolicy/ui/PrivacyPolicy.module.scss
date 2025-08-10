@@ -1,0 +1,114 @@
+@use "@styles/_mixins" as *;
+@use "@styles/_variables" as *;
+@use "@styles/_functions" as *;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 40px 80px 80px;
+  color: color(dark-black);
+}
+
+.title {
+  @include h1-desktop();
+  margin-bottom: 70px;
+}
+
+.start {
+  margin-bottom: 40px;
+}
+
+.date,
+.intro {
+  @include p1-laptop();
+  line-height: 120%;
+}
+
+.policyWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.end {
+  @include p1-laptop();
+  line-height: 120%;
+  margin-top: 35px;
+}
+
+@media (max-width: $laptop) {
+  .container {
+    padding: 40px 60px;
+  }
+
+  .title {
+    @include h1-40-laptop();
+  }
+
+  .date,
+  .intro {
+    @include p4-desktop();
+  }
+  
+  .end {
+    @include p4-desktop();
+  }
+}
+
+@media (max-width: $mobile) {
+  .container {
+    padding: 20px 40px;
+  }
+
+  .title {
+    @include h1-mobile();
+  }
+
+  .date,
+  .intro {
+    @include p1-15-mobile();
+  }
+
+  .policyWrapper {
+    gap: 35px;
+  }
+
+  .end {
+    @include p1-15-mobile();
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 420px) {
+  .title {
+    @include h1-mobileS();
+  }
+}
+
+@media (max-width: $mobileS) {
+  .container {
+    padding: 10px 10px 20px 10px;
+  }
+
+  .title {
+    @include h3-mobileS();
+    margin-bottom: 20px;
+  }
+
+  .date,
+  .intro {
+    @include p3-500-mobile();
+  }
+
+  .policyWrapper {
+    gap: 15px;
+  }
+
+  .end {
+    @include p3-500-mobile();
+    margin-top: 15px;
+  }
+}
