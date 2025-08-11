@@ -140,6 +140,12 @@
     sans-serif;
   line-height: 100%;
 }
+@mixin h1-30-tablet {
+  font:
+    600 font-size-tablet(h1-30) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
 @mixin h2-tablet {
   font:
     600 font-size-tablet(h2) "Montserrat",

@@ -16,6 +16,7 @@
 
 .text {
   @include p2-desktop();
+  line-height: 130%;
 }
 
 @media (max-width: $laptop) {
@@ -30,6 +31,7 @@
   
   .text {
     @include p2-laptop();
+    line-height: 130%;
   }
 
 }
@@ -46,6 +48,7 @@
   
   .text {
     @include p1-mobile();
+    line-height: 130%;
   }
 }
 
@@ -61,5 +64,6 @@
   
   .text {
     @include p2-mobile();
+    line-height: 130%;
   } 
 }

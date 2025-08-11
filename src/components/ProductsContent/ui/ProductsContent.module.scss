@@ -47,11 +47,13 @@
 
 .title {
   @include h2-38-laptop();
+  font-weight: 400;
   color: color(brand);
 }
 
 .text {
   @include p2-desktop();
+  line-height: 130%;
   color: color(black);
 }
 
@@ -70,10 +72,12 @@
   }
   .title {
     @include h1-tablet();
+    font-weight: 400;
   }
   
   .text {
     @include p4-desktop();
+    line-height: 130%;
   }  
 }
 
@@ -89,10 +93,12 @@
 
   .title {
     @include h2-mobile();
+    font-weight: 400;
   }
   
   .text {
     @include p2-mobile();
+    line-height: 130%;
     font-size: 15px;
   }
 
@@ -133,10 +139,12 @@
 
   .title {
     @include h2-mobileS();
+    font-weight: 400;
   }
   
   .text {
     @include p2-mobile();
+    line-height: 130%;
   }
   .btn {
     @include h2-mobileS();
