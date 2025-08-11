@@ -4,3 +4,4 @@ export * from './PhoneIcon';
 export * from './ChevronIcon';
 export * from './MailIcon';
 export * from './ArrowIcon';
+export * from './LogoImg';
