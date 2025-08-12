@@ -33,6 +33,7 @@
 
 .description {
   @include p1-desktop();
+  line-height: 120%;
 }
 
 .imgContainer {
@@ -68,6 +69,7 @@
   
   .description {
     @include p1-laptop();
+    line-height: 120%;
   }
 }
 
@@ -84,6 +86,7 @@
   
   .description {
     @include p1-tablet();
+    line-height: 120%;
   }
 }
 
@@ -102,6 +105,7 @@
   
   .description {
     @include p1-mobile();
+    line-height: 120%;
   }
 }
 
@@ -137,5 +141,6 @@
   
   .description {
     @include p1-mobileS();
+    line-height: 120%;
   }
 }

@@ -19,14 +19,18 @@ export const BreadCrumbs = ({ links, className = '' }: BreadCrumbsProps) => {
     <div className={clsx(styles.breadcrumbs, className)}>
       <nav className={styles.nav}>
         {links.map((link, index) => {
-          const isActive = location.pathname === `/${i18n.language}/${link.path}`;
+          const isActive = location.pathname === `/${i18n.language}/${link.path}` || index === 1; // temp
           return (
             <ul key={index} className={styles.list}>
-              <li className={clsx(styles.item, isActive && styles.active)}>
-                <Link to={`/${i18n.language}/${link.path}`} className={styles.link}>
-                  {link.label}
-                </Link>
-              </li>
+              {isActive ? (
+                <li className={clsx(styles.item, isActive && styles.active)}>{link.label}</li>
+              ) : (
+                <li className={clsx(styles.item, isActive && styles.active)}>
+                  <Link to={`/${i18n.language}/${link.path}`} className={styles.link}>
+                    {link.label}
+                  </Link>
+                </li>
+              )}
               {index < links.length - 1 && (
                 <span>
                   <ChevronIcon />

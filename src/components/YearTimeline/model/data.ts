@@ -14,10 +14,10 @@ type ProjectsMap = Record<Year, Project[]>;
 
 export const PROJECTS: ProjectsMap = {
   2012: [
-    { name: 'SanaUP', description: 'home.productsYears.SanaUP' },
+    { name: 'SanaUp', description: 'home.productsYears.SanaUP' },
     { name: 'Ozimki', description: 'home.productsYears.Ozimki' }
   ],
-  2013: [{ name: 'SkillShif', description: 'home.productsYears.SkillShif' }],
+  2013: [{ name: 'SkillShift', description: 'home.productsYears.SkillShif' }],
   2015: [
     { name: 'VeloNova', description: 'home.productsYears.VeloNova' },
     { name: 'LumoCasa', description: 'home.productsYears.LumoCasa' }

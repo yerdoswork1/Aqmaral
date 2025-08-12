@@ -1,10 +1,9 @@
-import { LangSwitcher } from '@components/LangSwutcher';
+import { LogoImg } from '@components/icons';
+import { LangSwitcher } from '@components/index';
 import { RouteNames } from '@config/RoutNames';
 import { useScreenType } from '@lib/screenType';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-
-import Logo from './../../../assets/logo.png';
 
 import styles from './Header.module.scss';
 
@@ -15,7 +14,7 @@ export const Header = () => {
     <header className={styles.header}>
       <div className={styles.container}>
         <Link to={RouteNames.MAIN}>
-          <img src={Logo} className={styles.logo} />
+          <LogoImg className={styles.logo} />
         </Link>
         <div className={styles.content}>
           {screenType !== 'mobileS' && (

@@ -13,7 +13,7 @@
 }
 
 .title {
-  @include h1-desktop();
+  @include h1-30-tablet();
   margin-bottom: 70px;
 }
 
@@ -24,7 +24,7 @@
 .date,
 .intro {
   @include p1-laptop();
-  line-height: 120%;
+  line-height: 130%;
 }
 
 .policyWrapper {
@@ -35,7 +35,7 @@
 
 .end {
   @include p1-laptop();
-  line-height: 120%;
+  line-height: 130%;
   margin-top: 35px;
 }
 
@@ -49,12 +49,10 @@
   }
 
   .date,
-  .intro {
-    @include p4-desktop();
-  }
-  
+  .intro,
   .end {
     @include p4-desktop();
+    line-height: 130%;
   }
 }
 
@@ -70,6 +68,7 @@
   .date,
   .intro {
     @include p1-15-mobile();
+    line-height: 130%;
   }
 
   .policyWrapper {
@@ -78,6 +77,7 @@
 
   .end {
     @include p1-15-mobile();
+    line-height: 130%;
     margin-top: 30px;
   }
 }
@@ -101,6 +101,7 @@
   .date,
   .intro {
     @include p3-500-mobile();
+    line-height: 130%;
   }
 
   .policyWrapper {
@@ -109,6 +110,7 @@
 
   .end {
     @include p3-500-mobile();
+    line-height: 130%;
     margin-top: 15px;
   }
 }

@@ -13,7 +13,7 @@
 }
 
 .title {
-  @include h1-desktop();
+  @include h1-30-tablet();
   margin-bottom: 70px;
 }
 
