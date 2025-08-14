@@ -34,7 +34,7 @@
 }
 
 .text {
-  @include p5-desktop();
+  @include p3-laptop();
   color: color(black);
   line-height: 130%;
 }

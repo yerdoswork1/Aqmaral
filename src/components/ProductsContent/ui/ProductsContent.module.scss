@@ -52,7 +52,7 @@
 }
 
 .text {
-  @include p2-desktop();
+  @include p1-laptop();
   line-height: 130%;
   color: color(black);
 }

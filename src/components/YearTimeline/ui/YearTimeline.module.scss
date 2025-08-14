@@ -138,12 +138,11 @@
 .projectTitle {
   @include h3-desktop();
   font-family: "Inter";
+  font-weight: 500;
 }
 
 .projectDescription {
   @include p4-desktop();
-  font-family: "Inter";
-  font-weight: 500;
 }
 
 @media (max-width: $laptop) {
@@ -173,12 +172,11 @@
   .projectTitle {
     @include h1-tablet();
     font-family: "Inter";
+    font-weight: 500;
   }
   
   .projectDescription {
-    @include p2-tablet();
-    font-family: "Inter";
-    font-weight: 500;
+    @include p2-tablet(); 
   }
 }
 
@@ -216,12 +214,11 @@
   .projectTitle {
     @include h2-mobileS();
     font-family: "Inter";
+    font-weight: 500;
   }
   
   .projectDescription {
     @include p1-mobileS();
-    font-family: "Inter";
-    font-weight: 500;
   }
 }
 
@@ -268,7 +265,5 @@
   
   .projectDescription {
     @include p1-mobile();
-    font-family: "Inter";
-    font-weight: 500;
   }
 }

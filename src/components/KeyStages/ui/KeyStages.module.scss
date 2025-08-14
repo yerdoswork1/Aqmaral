@@ -47,7 +47,7 @@
   }
   
   .text {
-    @include p1-mobile();
+    @include p2-mobile();
     line-height: 130%;
   }
 }
