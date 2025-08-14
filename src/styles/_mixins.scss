@@ -88,6 +88,24 @@
     sans-serif;
   line-height: 100%;
 }
+@mixin h3-laptop {
+  font:
+    600 font-size-laptop(h3) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h3-26-laptop {
+  font:
+    600 font-size-laptop(h3-26) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
+@mixin h4-laptop {
+  font:
+    600 font-size-laptop(h4-500) "Montserrat",
+    sans-serif;
+  line-height: 100%;
+}
 @mixin h4-500-laptop {
   font:
     500 font-size-laptop(h4-500) "Montserrat",
