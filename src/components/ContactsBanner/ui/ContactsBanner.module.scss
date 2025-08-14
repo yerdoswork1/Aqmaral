@@ -36,7 +36,7 @@
 }
 
 .title {
-  @include h3-desktop();
+  @include h3-laptop();
   color: color(dark-black);
 }
 
@@ -64,7 +64,7 @@
   }       
   
   .title {
-    @include h1-tablet();
+    @include h3-26-laptop();
   }
 
   .text {
@@ -85,7 +85,7 @@
   }
   
   .title {
-    @include h1-mobileS();
+    @include h2-mobileS();
   }
 
   .icon {

@@ -8,20 +8,21 @@
   gap: 35px;
 }
 .title {
-  @include h1-30-tablet();
+  @include h1-tablet();
 }
 
 .li {
   @include p1-laptop();
-  line-height: 120%;
+  line-height: 125%;
 }
 
 @media (max-width: $laptop) {
   .title {
-    @include h2-laptop();
+    @include h1-30-tablet();
   }
   .li {
     @include p4-desktop();
+    line-height: 125%;
   }
 }
 
@@ -31,10 +32,11 @@
   }
 
   .title {
-    @include h2-mobile();
+    @include h1-mobileS();
   }
   .li {
     @include p1-15-mobile();
+    line-height: 125%;
   }
 }
 
@@ -44,9 +46,10 @@
   }
 
   .title {
-    @include h3-13-mobileS();
+    @include h2-mobileS();
   }
   .li {
-    @include p3-500-mobile();
+    @include p3-mobile();
+    line-height: 125%;
   }
 }

@@ -13,7 +13,7 @@
 }
 
 .title {
-  @include h1-30-tablet();
+  @include h1-tablet();
   margin-bottom: 70px;
 }
 
@@ -29,7 +29,7 @@
   }
 
   .title {
-    @include h1-40-laptop();
+    @include h1-30-tablet();
   }
 }
 
@@ -39,7 +39,7 @@
   }
 
   .title {
-    @include h1-mobile();
+    @include h1-mobileS();
   }
 
   .policyWrapper {
